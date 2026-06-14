@@ -135,6 +135,9 @@
 
 			</footer>
 
+
+
+			<script src="script.js"></script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -147,21 +150,6 @@
 
 
 
-
-
-			<script>
-              const params = new URLSearchParams(window.location.search)
-  
-  const name = params.get('name') || 'Your Pharmacy'
-  const location = params.get('location') || 'Nairobi'
-  const phone = params.get('phone') || '+254 700 000 000'
-  const exactLocation = params.get("exact")
-
-  document.getElementById('biz-name').textContent = name
-  document.getElementById('biz-location').textContent = 'Your Trusted Pharmacy in ' + location
-  document.getElementById('biz-phone').textContent = phone
-  document.getElementById("biz-exact-location") = exactLocation
-			</script>
 
 	</body>
 </html>

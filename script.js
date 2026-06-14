@@ -1,7 +1,7 @@
  const params = new URLSearchParams(window.location.search)
   
   const name = params.get('name') || 'Your Pharmacy'
-  const location = params.get('location') || 'Nairobi'
+  const location1 = params.get('location') || 'Nairobi'
   const phone = params.get('phone') || '+254 700 000 000'
   const exact = params.get("exact") || "444432"
 
